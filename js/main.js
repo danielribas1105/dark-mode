@@ -1,4 +1,9 @@
+//Javascript
+/* document.querySelector('#btn').addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+}); */
 
-document.querySelector('#btn').addEventListener('click', () => {
+//jQuery
+$('#btn').click(() => { 
     document.body.classList.toggle('dark-mode');
 });
